@@ -1,0 +1,149 @@
+/**
+ * MinleyWeb.
+ * User: alejandrorioscalera
+ * Date: 6/6/17
+ * Time: 10:58
+ */
+
+/** @NAVBAR **/
+
+.sticky.navbar {
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.sticky .show-is-sticky,
+.sticky .show-not-sticky {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sticky .show-not-sticky {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.sticky.is-sticky.navbar {
+    background-color: #343a40;
+    border-color: #212529;
+    color: #e7e7e7;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.sticky.is-sticky.navbar > .span.barra {
+    color: #e7e7e7;
+}
+
+.sticky.is-sticky .show-is-sticky {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sticky.is-sticky .show-not-sticky {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/** @STRUCTURE **/
+* {
+    box-sizing: border-box;
+}
+
+
+body:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px;
+    background: linear-gradient(to bottom, #f4f4f4, #fff);
+
+}
+
+/** HEADER - HOME **/
+
+.header {
+    padding-top: 20px;
+    transform-style: preserve-3d;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+section#home {
+    color: #f8f9fa;
+}
+
+section#home div.jumbotron {
+    width: 100%;
+    height: auto;
+    background: url("https://i.imgur.com/gpfwHwb.jpg") no-repeat;
+    background-size: cover;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/** REST **/
+
+
+/** BOTONES **/
+
+.btn-verde {
+    background: #2ecc71;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 8px 15px rgba(0, 0, 0, 0.1);
+    color: #f8f9fa;
+}
+
+.btn-verde:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-verde:focus {
+    background: #27ae60;
+}
+
+.btn {
+    font-family: Montserrat, Arial, sans-serif;
+    color: #FFF !important;
+    font-size: 15px;
+    line-height: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #50a2f6;
+    padding: 16px 30px 14px;
+    border: 0px;
+    border-bottom: 3px solid #4395e8;
+    outline: none !important;
+    border-radius: 3px;
+    -webkit-transition: background-color .2s ease, color .2s ease, border .2s ease;
+    transition: background-color .2s ease, color .2s ease, border .2s ease;
+}
+
+
+/*# sourceMappingURL=theme.css.map */

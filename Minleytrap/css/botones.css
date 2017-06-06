@@ -1,0 +1,1130 @@
+@charset "UTF-8";
+/*!*****************************************************************************
+ *                                                                            *
+ *   Created by IntelliJ IDEA.                                                *
+ *   User: alejandrorioscalera                                                *
+ *   By clonalejandro                                                         *
+ *                                                                            *
+ ******************************************************************************/
+/** TODO: PALETA */
+/** TODO: TIPOS */
+/** TODO: FUNCIONES */
+/** TODO: BOTONES */
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+
+.boton {
+  padding: 5px 10px;
+  border-radius: 0;
+  width: 81px;
+  margin-bottom: 14px; }
+  .boton:hover, .boton:active, .boton:focus {
+    outline: none; }
+
+/** TODO: TAMAÑOS */
+.boton-xs {
+  width: 80px; }
+
+.boton-sm {
+  width: 100px; }
+
+.boton-md {
+  width: 120px; }
+
+.boton-lg {
+  width: 140px; }
+
+.boton-xl {
+  width: 160px;
+  height: 50px;
+  font-size: 25px; }
+
+/** TODO: TIPOS */
+.boton-negro,
+.boton-negro:hover,
+.boton-negro:focus,
+.boton-negro:active,
+.boton-negro.active,
+.open .dropdown-toggle.boton-negro,
+.boton-negro[disabled],
+fieldset[disabled] .boton-negro,
+.boton-negro.disabled:hover,
+.boton-negro[disabled]:hover,
+fieldset[disabled] .boton-negro:hover,
+.boton-negro.disabled:focus,
+.boton-negro[disabled]:focus,
+fieldset[disabled] .boton-negro:focus,
+.boton-negro.disabled:active,
+.boton-negro[disabled]:active,
+fieldset[disabled] .boton-negro:active,
+.boton-negro.disabled.active,
+.boton-negro[disabled].active,
+fieldset[disabled] .boton-negro.active {
+  color: #ffffff;
+  background: #4c5f70;
+  border-radius: 3px;
+  border: 2px solid #4c5f70;
+  transition: all .3s ease-in-out; }
+  .boton-negro:hover, .boton-negro:focus, .boton-negro:active,
+  .boton-negro:hover:hover,
+  .boton-negro:hover:focus,
+  .boton-negro:hover:active,
+  .boton-negro:focus:hover,
+  .boton-negro:focus:focus,
+  .boton-negro:focus:active,
+  .boton-negro:active:hover,
+  .boton-negro:active:focus,
+  .boton-negro:active:active,
+  .boton-negro.active:hover,
+  .boton-negro.active:focus,
+  .boton-negro.active:active,
+  .open .dropdown-toggle.boton-negro:hover,
+  .open .dropdown-toggle.boton-negro:focus,
+  .open .dropdown-toggle.boton-negro:active,
+  .boton-negro[disabled]:hover,
+  .boton-negro[disabled]:focus,
+  .boton-negro[disabled]:active,
+  fieldset[disabled] .boton-negro:hover,
+  fieldset[disabled] .boton-negro:focus,
+  fieldset[disabled] .boton-negro:active,
+  .boton-negro.disabled:hover:hover,
+  .boton-negro.disabled:hover:focus,
+  .boton-negro.disabled:hover:active,
+  .boton-negro[disabled]:hover:hover,
+  .boton-negro[disabled]:hover:focus,
+  .boton-negro[disabled]:hover:active,
+  fieldset[disabled] .boton-negro:hover:hover,
+  fieldset[disabled] .boton-negro:hover:focus,
+  fieldset[disabled] .boton-negro:hover:active,
+  .boton-negro.disabled:focus:hover,
+  .boton-negro.disabled:focus:focus,
+  .boton-negro.disabled:focus:active,
+  .boton-negro[disabled]:focus:hover,
+  .boton-negro[disabled]:focus:focus,
+  .boton-negro[disabled]:focus:active,
+  fieldset[disabled] .boton-negro:focus:hover,
+  fieldset[disabled] .boton-negro:focus:focus,
+  fieldset[disabled] .boton-negro:focus:active,
+  .boton-negro.disabled:active:hover,
+  .boton-negro.disabled:active:focus,
+  .boton-negro.disabled:active:active,
+  .boton-negro[disabled]:active:hover,
+  .boton-negro[disabled]:active:focus,
+  .boton-negro[disabled]:active:active,
+  fieldset[disabled] .boton-negro:active:hover,
+  fieldset[disabled] .boton-negro:active:focus,
+  fieldset[disabled] .boton-negro:active:active,
+  .boton-negro.disabled.active:hover,
+  .boton-negro.disabled.active:focus,
+  .boton-negro.disabled.active:active,
+  .boton-negro[disabled].active:hover,
+  .boton-negro[disabled].active:focus,
+  .boton-negro[disabled].active:active,
+  fieldset[disabled] .boton-negro.active:hover,
+  fieldset[disabled] .boton-negro.active:focus,
+  fieldset[disabled] .boton-negro.active:active {
+    border-color: #374552;
+    outline: none;
+    background: #374552;
+    color: #ffffff; }
+
+.boton-blanco,
+.boton-blanco:hover,
+.boton-blanco:focus,
+.boton-blanco:active,
+.boton-blanco.active,
+.open .dropdown-toggle.boton-blanco,
+.boton-blanco[disabled],
+fieldset[disabled] .boton-blanco,
+.boton-blanco.disabled:hover,
+.boton-blanco[disabled]:hover,
+fieldset[disabled] .boton-blanco:hover,
+.boton-blanco.disabled:focus,
+.boton-blanco[disabled]:focus,
+fieldset[disabled] .boton-blanco:focus,
+.boton-blanco.disabled:active,
+.boton-blanco[disabled]:active,
+fieldset[disabled] .boton-blanco:active,
+.boton-blanco.disabled.active,
+.boton-blanco[disabled].active,
+fieldset[disabled] .boton-blanco.active {
+  color: #202129 !important;
+  color: #ffffff;
+  background: #edeeee;
+  border-radius: 3px;
+  border: 2px solid #edeeee;
+  transition: all .3s ease-in-out; }
+  .boton-blanco:hover, .boton-blanco:focus, .boton-blanco:active,
+  .boton-blanco:hover:hover,
+  .boton-blanco:hover:focus,
+  .boton-blanco:hover:active,
+  .boton-blanco:focus:hover,
+  .boton-blanco:focus:focus,
+  .boton-blanco:focus:active,
+  .boton-blanco:active:hover,
+  .boton-blanco:active:focus,
+  .boton-blanco:active:active,
+  .boton-blanco.active:hover,
+  .boton-blanco.active:focus,
+  .boton-blanco.active:active,
+  .open .dropdown-toggle.boton-blanco:hover,
+  .open .dropdown-toggle.boton-blanco:focus,
+  .open .dropdown-toggle.boton-blanco:active,
+  .boton-blanco[disabled]:hover,
+  .boton-blanco[disabled]:focus,
+  .boton-blanco[disabled]:active,
+  fieldset[disabled] .boton-blanco:hover,
+  fieldset[disabled] .boton-blanco:focus,
+  fieldset[disabled] .boton-blanco:active,
+  .boton-blanco.disabled:hover:hover,
+  .boton-blanco.disabled:hover:focus,
+  .boton-blanco.disabled:hover:active,
+  .boton-blanco[disabled]:hover:hover,
+  .boton-blanco[disabled]:hover:focus,
+  .boton-blanco[disabled]:hover:active,
+  fieldset[disabled] .boton-blanco:hover:hover,
+  fieldset[disabled] .boton-blanco:hover:focus,
+  fieldset[disabled] .boton-blanco:hover:active,
+  .boton-blanco.disabled:focus:hover,
+  .boton-blanco.disabled:focus:focus,
+  .boton-blanco.disabled:focus:active,
+  .boton-blanco[disabled]:focus:hover,
+  .boton-blanco[disabled]:focus:focus,
+  .boton-blanco[disabled]:focus:active,
+  fieldset[disabled] .boton-blanco:focus:hover,
+  fieldset[disabled] .boton-blanco:focus:focus,
+  fieldset[disabled] .boton-blanco:focus:active,
+  .boton-blanco.disabled:active:hover,
+  .boton-blanco.disabled:active:focus,
+  .boton-blanco.disabled:active:active,
+  .boton-blanco[disabled]:active:hover,
+  .boton-blanco[disabled]:active:focus,
+  .boton-blanco[disabled]:active:active,
+  fieldset[disabled] .boton-blanco:active:hover,
+  fieldset[disabled] .boton-blanco:active:focus,
+  fieldset[disabled] .boton-blanco:active:active,
+  .boton-blanco.disabled.active:hover,
+  .boton-blanco.disabled.active:focus,
+  .boton-blanco.disabled.active:active,
+  .boton-blanco[disabled].active:hover,
+  .boton-blanco[disabled].active:focus,
+  .boton-blanco[disabled].active:active,
+  fieldset[disabled] .boton-blanco.active:hover,
+  fieldset[disabled] .boton-blanco.active:focus,
+  fieldset[disabled] .boton-blanco.active:active {
+    border-color: #d3d5d5;
+    outline: none;
+    background: #d3d5d5;
+    color: #ffffff; }
+
+.boton-azul,
+.boton-azul:hover,
+.boton-azul:focus,
+.boton-azul:active,
+.boton-azul.active,
+.open .dropdown-toggle.boton-azul,
+.boton-azul[disabled],
+fieldset[disabled] .boton-azul,
+.boton-azul.disabled:hover,
+.boton-azul[disabled]:hover,
+fieldset[disabled] .boton-azul:hover,
+.boton-azul.disabled:focus,
+.boton-azul[disabled]:focus,
+fieldset[disabled] .boton-azul:focus,
+.boton-azul.disabled:active,
+.boton-azul[disabled]:active,
+fieldset[disabled] .boton-azul:active,
+.boton-azul.disabled.active,
+.boton-azul[disabled].active,
+fieldset[disabled] .boton-azul.active {
+  color: #ffffff;
+  background: #23b7e5;
+  border-radius: 3px;
+  border: 2px solid #23b7e5;
+  transition: all .3s ease-in-out; }
+  .boton-azul:hover, .boton-azul:focus, .boton-azul:active,
+  .boton-azul:hover:hover,
+  .boton-azul:hover:focus,
+  .boton-azul:hover:active,
+  .boton-azul:focus:hover,
+  .boton-azul:focus:focus,
+  .boton-azul:focus:active,
+  .boton-azul:active:hover,
+  .boton-azul:active:focus,
+  .boton-azul:active:active,
+  .boton-azul.active:hover,
+  .boton-azul.active:focus,
+  .boton-azul.active:active,
+  .open .dropdown-toggle.boton-azul:hover,
+  .open .dropdown-toggle.boton-azul:focus,
+  .open .dropdown-toggle.boton-azul:active,
+  .boton-azul[disabled]:hover,
+  .boton-azul[disabled]:focus,
+  .boton-azul[disabled]:active,
+  fieldset[disabled] .boton-azul:hover,
+  fieldset[disabled] .boton-azul:focus,
+  fieldset[disabled] .boton-azul:active,
+  .boton-azul.disabled:hover:hover,
+  .boton-azul.disabled:hover:focus,
+  .boton-azul.disabled:hover:active,
+  .boton-azul[disabled]:hover:hover,
+  .boton-azul[disabled]:hover:focus,
+  .boton-azul[disabled]:hover:active,
+  fieldset[disabled] .boton-azul:hover:hover,
+  fieldset[disabled] .boton-azul:hover:focus,
+  fieldset[disabled] .boton-azul:hover:active,
+  .boton-azul.disabled:focus:hover,
+  .boton-azul.disabled:focus:focus,
+  .boton-azul.disabled:focus:active,
+  .boton-azul[disabled]:focus:hover,
+  .boton-azul[disabled]:focus:focus,
+  .boton-azul[disabled]:focus:active,
+  fieldset[disabled] .boton-azul:focus:hover,
+  fieldset[disabled] .boton-azul:focus:focus,
+  fieldset[disabled] .boton-azul:focus:active,
+  .boton-azul.disabled:active:hover,
+  .boton-azul.disabled:active:focus,
+  .boton-azul.disabled:active:active,
+  .boton-azul[disabled]:active:hover,
+  .boton-azul[disabled]:active:focus,
+  .boton-azul[disabled]:active:active,
+  fieldset[disabled] .boton-azul:active:hover,
+  fieldset[disabled] .boton-azul:active:focus,
+  fieldset[disabled] .boton-azul:active:active,
+  .boton-azul.disabled.active:hover,
+  .boton-azul.disabled.active:focus,
+  .boton-azul.disabled.active:active,
+  .boton-azul[disabled].active:hover,
+  .boton-azul[disabled].active:focus,
+  .boton-azul[disabled].active:active,
+  fieldset[disabled] .boton-azul.active:hover,
+  fieldset[disabled] .boton-azul.active:focus,
+  fieldset[disabled] .boton-azul.active:active {
+    border-color: #1797be;
+    outline: none;
+    background: #1797be;
+    color: #ffffff; }
+
+.boton-verde,
+.boton-verde:hover,
+.boton-verde:focus,
+.boton-verde:active,
+.boton-verde.active,
+.open .dropdown-toggle.boton-verde,
+.boton-verde[disabled],
+fieldset[disabled] .boton-verde,
+.boton-verde.disabled:hover,
+.boton-verde[disabled]:hover,
+fieldset[disabled] .boton-verde:hover,
+.boton-verde.disabled:focus,
+.boton-verde[disabled]:focus,
+fieldset[disabled] .boton-verde:focus,
+.boton-verde.disabled:active,
+.boton-verde[disabled]:active,
+fieldset[disabled] .boton-verde:active,
+.boton-verde.disabled.active,
+.boton-verde[disabled].active,
+fieldset[disabled] .boton-verde.active {
+  color: #ffffff;
+  background: #3ac569;
+  border-radius: 3px;
+  border: 2px solid #3ac569;
+  transition: all .3s ease-in-out; }
+  .boton-verde:hover, .boton-verde:focus, .boton-verde:active,
+  .boton-verde:hover:hover,
+  .boton-verde:hover:focus,
+  .boton-verde:hover:active,
+  .boton-verde:focus:hover,
+  .boton-verde:focus:focus,
+  .boton-verde:focus:active,
+  .boton-verde:active:hover,
+  .boton-verde:active:focus,
+  .boton-verde:active:active,
+  .boton-verde.active:hover,
+  .boton-verde.active:focus,
+  .boton-verde.active:active,
+  .open .dropdown-toggle.boton-verde:hover,
+  .open .dropdown-toggle.boton-verde:focus,
+  .open .dropdown-toggle.boton-verde:active,
+  .boton-verde[disabled]:hover,
+  .boton-verde[disabled]:focus,
+  .boton-verde[disabled]:active,
+  fieldset[disabled] .boton-verde:hover,
+  fieldset[disabled] .boton-verde:focus,
+  fieldset[disabled] .boton-verde:active,
+  .boton-verde.disabled:hover:hover,
+  .boton-verde.disabled:hover:focus,
+  .boton-verde.disabled:hover:active,
+  .boton-verde[disabled]:hover:hover,
+  .boton-verde[disabled]:hover:focus,
+  .boton-verde[disabled]:hover:active,
+  fieldset[disabled] .boton-verde:hover:hover,
+  fieldset[disabled] .boton-verde:hover:focus,
+  fieldset[disabled] .boton-verde:hover:active,
+  .boton-verde.disabled:focus:hover,
+  .boton-verde.disabled:focus:focus,
+  .boton-verde.disabled:focus:active,
+  .boton-verde[disabled]:focus:hover,
+  .boton-verde[disabled]:focus:focus,
+  .boton-verde[disabled]:focus:active,
+  fieldset[disabled] .boton-verde:focus:hover,
+  fieldset[disabled] .boton-verde:focus:focus,
+  fieldset[disabled] .boton-verde:focus:active,
+  .boton-verde.disabled:active:hover,
+  .boton-verde.disabled:active:focus,
+  .boton-verde.disabled:active:active,
+  .boton-verde[disabled]:active:hover,
+  .boton-verde[disabled]:active:focus,
+  .boton-verde[disabled]:active:active,
+  fieldset[disabled] .boton-verde:active:hover,
+  fieldset[disabled] .boton-verde:active:focus,
+  fieldset[disabled] .boton-verde:active:active,
+  .boton-verde.disabled.active:hover,
+  .boton-verde.disabled.active:focus,
+  .boton-verde.disabled.active:active,
+  .boton-verde[disabled].active:hover,
+  .boton-verde[disabled].active:focus,
+  .boton-verde[disabled].active:active,
+  fieldset[disabled] .boton-verde.active:hover,
+  fieldset[disabled] .boton-verde.active:focus,
+  fieldset[disabled] .boton-verde.active:active {
+    border-color: #2e9e54;
+    outline: none;
+    background: #2e9e54;
+    color: #ffffff; }
+
+.boton-amarillo,
+.boton-amarillo:hover,
+.boton-amarillo:focus,
+.boton-amarillo:active,
+.boton-amarillo.active,
+.open .dropdown-toggle.boton-amarillo,
+.boton-amarillo[disabled],
+fieldset[disabled] .boton-amarillo,
+.boton-amarillo.disabled:hover,
+.boton-amarillo[disabled]:hover,
+fieldset[disabled] .boton-amarillo:hover,
+.boton-amarillo.disabled:focus,
+.boton-amarillo[disabled]:focus,
+fieldset[disabled] .boton-amarillo:focus,
+.boton-amarillo.disabled:active,
+.boton-amarillo[disabled]:active,
+fieldset[disabled] .boton-amarillo:active,
+.boton-amarillo.disabled.active,
+.boton-amarillo[disabled].active,
+fieldset[disabled] .boton-amarillo.active {
+  color: #ffffff;
+  background: #FFEA00;
+  border-radius: 3px;
+  border: 2px solid #FFEA00;
+  transition: all .3s ease-in-out; }
+  .boton-amarillo:hover, .boton-amarillo:focus, .boton-amarillo:active,
+  .boton-amarillo:hover:hover,
+  .boton-amarillo:hover:focus,
+  .boton-amarillo:hover:active,
+  .boton-amarillo:focus:hover,
+  .boton-amarillo:focus:focus,
+  .boton-amarillo:focus:active,
+  .boton-amarillo:active:hover,
+  .boton-amarillo:active:focus,
+  .boton-amarillo:active:active,
+  .boton-amarillo.active:hover,
+  .boton-amarillo.active:focus,
+  .boton-amarillo.active:active,
+  .open .dropdown-toggle.boton-amarillo:hover,
+  .open .dropdown-toggle.boton-amarillo:focus,
+  .open .dropdown-toggle.boton-amarillo:active,
+  .boton-amarillo[disabled]:hover,
+  .boton-amarillo[disabled]:focus,
+  .boton-amarillo[disabled]:active,
+  fieldset[disabled] .boton-amarillo:hover,
+  fieldset[disabled] .boton-amarillo:focus,
+  fieldset[disabled] .boton-amarillo:active,
+  .boton-amarillo.disabled:hover:hover,
+  .boton-amarillo.disabled:hover:focus,
+  .boton-amarillo.disabled:hover:active,
+  .boton-amarillo[disabled]:hover:hover,
+  .boton-amarillo[disabled]:hover:focus,
+  .boton-amarillo[disabled]:hover:active,
+  fieldset[disabled] .boton-amarillo:hover:hover,
+  fieldset[disabled] .boton-amarillo:hover:focus,
+  fieldset[disabled] .boton-amarillo:hover:active,
+  .boton-amarillo.disabled:focus:hover,
+  .boton-amarillo.disabled:focus:focus,
+  .boton-amarillo.disabled:focus:active,
+  .boton-amarillo[disabled]:focus:hover,
+  .boton-amarillo[disabled]:focus:focus,
+  .boton-amarillo[disabled]:focus:active,
+  fieldset[disabled] .boton-amarillo:focus:hover,
+  fieldset[disabled] .boton-amarillo:focus:focus,
+  fieldset[disabled] .boton-amarillo:focus:active,
+  .boton-amarillo.disabled:active:hover,
+  .boton-amarillo.disabled:active:focus,
+  .boton-amarillo.disabled:active:active,
+  .boton-amarillo[disabled]:active:hover,
+  .boton-amarillo[disabled]:active:focus,
+  .boton-amarillo[disabled]:active:active,
+  fieldset[disabled] .boton-amarillo:active:hover,
+  fieldset[disabled] .boton-amarillo:active:focus,
+  fieldset[disabled] .boton-amarillo:active:active,
+  .boton-amarillo.disabled.active:hover,
+  .boton-amarillo.disabled.active:focus,
+  .boton-amarillo.disabled.active:active,
+  .boton-amarillo[disabled].active:hover,
+  .boton-amarillo[disabled].active:focus,
+  .boton-amarillo[disabled].active:active,
+  fieldset[disabled] .boton-amarillo.active:hover,
+  fieldset[disabled] .boton-amarillo.active:focus,
+  fieldset[disabled] .boton-amarillo.active:active {
+    border-color: #ccbb00;
+    outline: none;
+    background: #ccbb00;
+    color: #ffffff; }
+
+.boton-naranja,
+.boton-naranja:hover,
+.boton-naranja:focus,
+.boton-naranja:active,
+.boton-naranja.active,
+.open .dropdown-toggle.boton-naranja,
+.boton-naranja[disabled],
+fieldset[disabled] .boton-naranja,
+.boton-naranja.disabled:hover,
+.boton-naranja[disabled]:hover,
+fieldset[disabled] .boton-naranja:hover,
+.boton-naranja.disabled:focus,
+.boton-naranja[disabled]:focus,
+fieldset[disabled] .boton-naranja:focus,
+.boton-naranja.disabled:active,
+.boton-naranja[disabled]:active,
+fieldset[disabled] .boton-naranja:active,
+.boton-naranja.disabled.active,
+.boton-naranja[disabled].active,
+fieldset[disabled] .boton-naranja.active {
+  color: #ffffff;
+  background: #ffa94d;
+  border-radius: 3px;
+  border: 2px solid #ffa94d;
+  transition: all .3s ease-in-out; }
+  .boton-naranja:hover, .boton-naranja:focus, .boton-naranja:active,
+  .boton-naranja:hover:hover,
+  .boton-naranja:hover:focus,
+  .boton-naranja:hover:active,
+  .boton-naranja:focus:hover,
+  .boton-naranja:focus:focus,
+  .boton-naranja:focus:active,
+  .boton-naranja:active:hover,
+  .boton-naranja:active:focus,
+  .boton-naranja:active:active,
+  .boton-naranja.active:hover,
+  .boton-naranja.active:focus,
+  .boton-naranja.active:active,
+  .open .dropdown-toggle.boton-naranja:hover,
+  .open .dropdown-toggle.boton-naranja:focus,
+  .open .dropdown-toggle.boton-naranja:active,
+  .boton-naranja[disabled]:hover,
+  .boton-naranja[disabled]:focus,
+  .boton-naranja[disabled]:active,
+  fieldset[disabled] .boton-naranja:hover,
+  fieldset[disabled] .boton-naranja:focus,
+  fieldset[disabled] .boton-naranja:active,
+  .boton-naranja.disabled:hover:hover,
+  .boton-naranja.disabled:hover:focus,
+  .boton-naranja.disabled:hover:active,
+  .boton-naranja[disabled]:hover:hover,
+  .boton-naranja[disabled]:hover:focus,
+  .boton-naranja[disabled]:hover:active,
+  fieldset[disabled] .boton-naranja:hover:hover,
+  fieldset[disabled] .boton-naranja:hover:focus,
+  fieldset[disabled] .boton-naranja:hover:active,
+  .boton-naranja.disabled:focus:hover,
+  .boton-naranja.disabled:focus:focus,
+  .boton-naranja.disabled:focus:active,
+  .boton-naranja[disabled]:focus:hover,
+  .boton-naranja[disabled]:focus:focus,
+  .boton-naranja[disabled]:focus:active,
+  fieldset[disabled] .boton-naranja:focus:hover,
+  fieldset[disabled] .boton-naranja:focus:focus,
+  fieldset[disabled] .boton-naranja:focus:active,
+  .boton-naranja.disabled:active:hover,
+  .boton-naranja.disabled:active:focus,
+  .boton-naranja.disabled:active:active,
+  .boton-naranja[disabled]:active:hover,
+  .boton-naranja[disabled]:active:focus,
+  .boton-naranja[disabled]:active:active,
+  fieldset[disabled] .boton-naranja:active:hover,
+  fieldset[disabled] .boton-naranja:active:focus,
+  fieldset[disabled] .boton-naranja:active:active,
+  .boton-naranja.disabled.active:hover,
+  .boton-naranja.disabled.active:focus,
+  .boton-naranja.disabled.active:active,
+  .boton-naranja[disabled].active:hover,
+  .boton-naranja[disabled].active:focus,
+  .boton-naranja[disabled].active:active,
+  fieldset[disabled] .boton-naranja.active:hover,
+  fieldset[disabled] .boton-naranja.active:focus,
+  fieldset[disabled] .boton-naranja.active:active {
+    border-color: #ff901a;
+    outline: none;
+    background: #ff901a;
+    color: #ffffff; }
+
+.boton-rosa,
+.boton-rosa:hover,
+.boton-rosa:focus,
+.boton-rosa:active,
+.boton-rosa.active,
+.open .dropdown-toggle.boton-rosa,
+.boton-rosa[disabled],
+fieldset[disabled] .boton-rosa,
+.boton-rosa.disabled:hover,
+.boton-rosa[disabled]:hover,
+fieldset[disabled] .boton-rosa:hover,
+.boton-rosa.disabled:focus,
+.boton-rosa[disabled]:focus,
+fieldset[disabled] .boton-rosa:focus,
+.boton-rosa.disabled:active,
+.boton-rosa[disabled]:active,
+fieldset[disabled] .boton-rosa:active,
+.boton-rosa.disabled.active,
+.boton-rosa[disabled].active,
+fieldset[disabled] .boton-rosa.active {
+  color: #ffffff;
+  background: #f06595;
+  border-radius: 3px;
+  border: 2px solid #f06595;
+  transition: all .3s ease-in-out; }
+  .boton-rosa:hover, .boton-rosa:focus, .boton-rosa:active,
+  .boton-rosa:hover:hover,
+  .boton-rosa:hover:focus,
+  .boton-rosa:hover:active,
+  .boton-rosa:focus:hover,
+  .boton-rosa:focus:focus,
+  .boton-rosa:focus:active,
+  .boton-rosa:active:hover,
+  .boton-rosa:active:focus,
+  .boton-rosa:active:active,
+  .boton-rosa.active:hover,
+  .boton-rosa.active:focus,
+  .boton-rosa.active:active,
+  .open .dropdown-toggle.boton-rosa:hover,
+  .open .dropdown-toggle.boton-rosa:focus,
+  .open .dropdown-toggle.boton-rosa:active,
+  .boton-rosa[disabled]:hover,
+  .boton-rosa[disabled]:focus,
+  .boton-rosa[disabled]:active,
+  fieldset[disabled] .boton-rosa:hover,
+  fieldset[disabled] .boton-rosa:focus,
+  fieldset[disabled] .boton-rosa:active,
+  .boton-rosa.disabled:hover:hover,
+  .boton-rosa.disabled:hover:focus,
+  .boton-rosa.disabled:hover:active,
+  .boton-rosa[disabled]:hover:hover,
+  .boton-rosa[disabled]:hover:focus,
+  .boton-rosa[disabled]:hover:active,
+  fieldset[disabled] .boton-rosa:hover:hover,
+  fieldset[disabled] .boton-rosa:hover:focus,
+  fieldset[disabled] .boton-rosa:hover:active,
+  .boton-rosa.disabled:focus:hover,
+  .boton-rosa.disabled:focus:focus,
+  .boton-rosa.disabled:focus:active,
+  .boton-rosa[disabled]:focus:hover,
+  .boton-rosa[disabled]:focus:focus,
+  .boton-rosa[disabled]:focus:active,
+  fieldset[disabled] .boton-rosa:focus:hover,
+  fieldset[disabled] .boton-rosa:focus:focus,
+  fieldset[disabled] .boton-rosa:focus:active,
+  .boton-rosa.disabled:active:hover,
+  .boton-rosa.disabled:active:focus,
+  .boton-rosa.disabled:active:active,
+  .boton-rosa[disabled]:active:hover,
+  .boton-rosa[disabled]:active:focus,
+  .boton-rosa[disabled]:active:active,
+  fieldset[disabled] .boton-rosa:active:hover,
+  fieldset[disabled] .boton-rosa:active:focus,
+  fieldset[disabled] .boton-rosa:active:active,
+  .boton-rosa.disabled.active:hover,
+  .boton-rosa.disabled.active:focus,
+  .boton-rosa.disabled.active:active,
+  .boton-rosa[disabled].active:hover,
+  .boton-rosa[disabled].active:focus,
+  .boton-rosa[disabled].active:active,
+  fieldset[disabled] .boton-rosa.active:hover,
+  fieldset[disabled] .boton-rosa.active:focus,
+  fieldset[disabled] .boton-rosa.active:active {
+    border-color: #eb3775;
+    outline: none;
+    background: #eb3775;
+    color: #ffffff; }
+
+.boton-rojo,
+.boton-rojo:hover,
+.boton-rojo:focus,
+.boton-rojo:active,
+.boton-rojo.active,
+.open .dropdown-toggle.boton-rojo,
+.boton-rojo[disabled],
+fieldset[disabled] .boton-rojo,
+.boton-rojo.disabled:hover,
+.boton-rojo[disabled]:hover,
+fieldset[disabled] .boton-rojo:hover,
+.boton-rojo.disabled:focus,
+.boton-rojo[disabled]:focus,
+fieldset[disabled] .boton-rojo:focus,
+.boton-rojo.disabled:active,
+.boton-rojo[disabled]:active,
+fieldset[disabled] .boton-rojo:active,
+.boton-rojo.disabled.active,
+.boton-rojo[disabled].active,
+fieldset[disabled] .boton-rojo.active {
+  color: #ffffff;
+  background: #F32C52;
+  border-radius: 3px;
+  border: 2px solid #F32C52;
+  transition: all .3s ease-in-out; }
+  .boton-rojo:hover, .boton-rojo:focus, .boton-rojo:active,
+  .boton-rojo:hover:hover,
+  .boton-rojo:hover:focus,
+  .boton-rojo:hover:active,
+  .boton-rojo:focus:hover,
+  .boton-rojo:focus:focus,
+  .boton-rojo:focus:active,
+  .boton-rojo:active:hover,
+  .boton-rojo:active:focus,
+  .boton-rojo:active:active,
+  .boton-rojo.active:hover,
+  .boton-rojo.active:focus,
+  .boton-rojo.active:active,
+  .open .dropdown-toggle.boton-rojo:hover,
+  .open .dropdown-toggle.boton-rojo:focus,
+  .open .dropdown-toggle.boton-rojo:active,
+  .boton-rojo[disabled]:hover,
+  .boton-rojo[disabled]:focus,
+  .boton-rojo[disabled]:active,
+  fieldset[disabled] .boton-rojo:hover,
+  fieldset[disabled] .boton-rojo:focus,
+  fieldset[disabled] .boton-rojo:active,
+  .boton-rojo.disabled:hover:hover,
+  .boton-rojo.disabled:hover:focus,
+  .boton-rojo.disabled:hover:active,
+  .boton-rojo[disabled]:hover:hover,
+  .boton-rojo[disabled]:hover:focus,
+  .boton-rojo[disabled]:hover:active,
+  fieldset[disabled] .boton-rojo:hover:hover,
+  fieldset[disabled] .boton-rojo:hover:focus,
+  fieldset[disabled] .boton-rojo:hover:active,
+  .boton-rojo.disabled:focus:hover,
+  .boton-rojo.disabled:focus:focus,
+  .boton-rojo.disabled:focus:active,
+  .boton-rojo[disabled]:focus:hover,
+  .boton-rojo[disabled]:focus:focus,
+  .boton-rojo[disabled]:focus:active,
+  fieldset[disabled] .boton-rojo:focus:hover,
+  fieldset[disabled] .boton-rojo:focus:focus,
+  fieldset[disabled] .boton-rojo:focus:active,
+  .boton-rojo.disabled:active:hover,
+  .boton-rojo.disabled:active:focus,
+  .boton-rojo.disabled:active:active,
+  .boton-rojo[disabled]:active:hover,
+  .boton-rojo[disabled]:active:focus,
+  .boton-rojo[disabled]:active:active,
+  fieldset[disabled] .boton-rojo:active:hover,
+  fieldset[disabled] .boton-rojo:active:focus,
+  fieldset[disabled] .boton-rojo:active:active,
+  .boton-rojo.disabled.active:hover,
+  .boton-rojo.disabled.active:focus,
+  .boton-rojo.disabled.active:active,
+  .boton-rojo[disabled].active:hover,
+  .boton-rojo[disabled].active:focus,
+  .boton-rojo[disabled].active:active,
+  fieldset[disabled] .boton-rojo.active:hover,
+  fieldset[disabled] .boton-rojo.active:focus,
+  fieldset[disabled] .boton-rojo.active:active {
+    border-color: #df0d35;
+    outline: none;
+    background: #df0d35;
+    color: #ffffff; }
+
+.boton-morado,
+.boton-morado:hover,
+.boton-morado:focus,
+.boton-morado:active,
+.boton-morado.active,
+.open .dropdown-toggle.boton-morado,
+.boton-morado[disabled],
+fieldset[disabled] .boton-morado,
+.boton-morado.disabled:hover,
+.boton-morado[disabled]:hover,
+fieldset[disabled] .boton-morado:hover,
+.boton-morado.disabled:focus,
+.boton-morado[disabled]:focus,
+fieldset[disabled] .boton-morado:focus,
+.boton-morado.disabled:active,
+.boton-morado[disabled]:active,
+fieldset[disabled] .boton-morado:active,
+.boton-morado.disabled.active,
+.boton-morado[disabled].active,
+fieldset[disabled] .boton-morado.active {
+  color: #ffffff;
+  background: #7266ba;
+  border-radius: 3px;
+  border: 2px solid #7266ba;
+  transition: all .3s ease-in-out; }
+  .boton-morado:hover, .boton-morado:focus, .boton-morado:active,
+  .boton-morado:hover:hover,
+  .boton-morado:hover:focus,
+  .boton-morado:hover:active,
+  .boton-morado:focus:hover,
+  .boton-morado:focus:focus,
+  .boton-morado:focus:active,
+  .boton-morado:active:hover,
+  .boton-morado:active:focus,
+  .boton-morado:active:active,
+  .boton-morado.active:hover,
+  .boton-morado.active:focus,
+  .boton-morado.active:active,
+  .open .dropdown-toggle.boton-morado:hover,
+  .open .dropdown-toggle.boton-morado:focus,
+  .open .dropdown-toggle.boton-morado:active,
+  .boton-morado[disabled]:hover,
+  .boton-morado[disabled]:focus,
+  .boton-morado[disabled]:active,
+  fieldset[disabled] .boton-morado:hover,
+  fieldset[disabled] .boton-morado:focus,
+  fieldset[disabled] .boton-morado:active,
+  .boton-morado.disabled:hover:hover,
+  .boton-morado.disabled:hover:focus,
+  .boton-morado.disabled:hover:active,
+  .boton-morado[disabled]:hover:hover,
+  .boton-morado[disabled]:hover:focus,
+  .boton-morado[disabled]:hover:active,
+  fieldset[disabled] .boton-morado:hover:hover,
+  fieldset[disabled] .boton-morado:hover:focus,
+  fieldset[disabled] .boton-morado:hover:active,
+  .boton-morado.disabled:focus:hover,
+  .boton-morado.disabled:focus:focus,
+  .boton-morado.disabled:focus:active,
+  .boton-morado[disabled]:focus:hover,
+  .boton-morado[disabled]:focus:focus,
+  .boton-morado[disabled]:focus:active,
+  fieldset[disabled] .boton-morado:focus:hover,
+  fieldset[disabled] .boton-morado:focus:focus,
+  fieldset[disabled] .boton-morado:focus:active,
+  .boton-morado.disabled:active:hover,
+  .boton-morado.disabled:active:focus,
+  .boton-morado.disabled:active:active,
+  .boton-morado[disabled]:active:hover,
+  .boton-morado[disabled]:active:focus,
+  .boton-morado[disabled]:active:active,
+  fieldset[disabled] .boton-morado:active:hover,
+  fieldset[disabled] .boton-morado:active:focus,
+  fieldset[disabled] .boton-morado:active:active,
+  .boton-morado.disabled.active:hover,
+  .boton-morado.disabled.active:focus,
+  .boton-morado.disabled.active:active,
+  .boton-morado[disabled].active:hover,
+  .boton-morado[disabled].active:focus,
+  .boton-morado[disabled].active:active,
+  fieldset[disabled] .boton-morado.active:hover,
+  fieldset[disabled] .boton-morado.active:focus,
+  fieldset[disabled] .boton-morado.active:active {
+    border-color: #564aa3;
+    outline: none;
+    background: #564aa3;
+    color: #ffffff; }
+
+/** TODO: OUTLINE */
+.boton-negro-outline {
+  background: transparent;
+  border: 2px solid #374552;
+  color: #374552;
+  transition: all .2s ease-in-out; }
+  .boton-negro-outline:hover, .boton-negro-outline:active, .boton-negro-outline:focus {
+    border-color: #4c5f70;
+    background: #4c5f70;
+    color: #fff; }
+
+.boton-blanco-outline {
+  background: transparent;
+  border: 2px solid #d3d5d5;
+  color: #d3d5d5;
+  transition: all .2s ease-in-out;
+  color: #202129 !important; }
+  .boton-blanco-outline:hover, .boton-blanco-outline:active, .boton-blanco-outline:focus {
+    border-color: #edeeee;
+    background: #edeeee;
+    color: #fff; }
+
+.boton-azul-outline {
+  background: transparent;
+  border: 2px solid #1797be;
+  color: #1797be;
+  transition: all .2s ease-in-out; }
+  .boton-azul-outline:hover, .boton-azul-outline:active, .boton-azul-outline:focus {
+    border-color: #23b7e5;
+    background: #23b7e5;
+    color: #fff; }
+
+.boton-verde-outline {
+  background: transparent;
+  border: 2px solid #2e9e54;
+  color: #2e9e54;
+  transition: all .2s ease-in-out; }
+  .boton-verde-outline:hover, .boton-verde-outline:active, .boton-verde-outline:focus {
+    border-color: #3ac569;
+    background: #3ac569;
+    color: #fff; }
+
+.boton-amarillo-outline {
+  background: transparent;
+  border: 2px solid #ccbb00;
+  color: #ccbb00;
+  transition: all .2s ease-in-out; }
+  .boton-amarillo-outline:hover, .boton-amarillo-outline:active, .boton-amarillo-outline:focus {
+    border-color: #FFEA00;
+    background: #FFEA00;
+    color: #fff; }
+
+.boton-naranja-outline {
+  background: transparent;
+  border: 2px solid #ff901a;
+  color: #ff901a;
+  transition: all .2s ease-in-out; }
+  .boton-naranja-outline:hover, .boton-naranja-outline:active, .boton-naranja-outline:focus {
+    border-color: #ffa94d;
+    background: #ffa94d;
+    color: #fff; }
+
+.boton-rosa-outline {
+  background: transparent;
+  border: 2px solid #eb3775;
+  color: #eb3775;
+  transition: all .2s ease-in-out; }
+  .boton-rosa-outline:hover, .boton-rosa-outline:active, .boton-rosa-outline:focus {
+    border-color: #f06595;
+    background: #f06595;
+    color: #fff; }
+
+.boton-rojo-outline {
+  background: transparent;
+  border: 2px solid #df0d35;
+  color: #df0d35;
+  transition: all .2s ease-in-out; }
+  .boton-rojo-outline:hover, .boton-rojo-outline:active, .boton-rojo-outline:focus {
+    border-color: #F32C52;
+    background: #F32C52;
+    color: #fff; }
+
+.boton-morado-outline {
+  background: transparent;
+  border: 2px solid #564aa3;
+  color: #564aa3;
+  transition: all .2s ease-in-out; }
+  .boton-morado-outline:hover, .boton-morado-outline:active, .boton-morado-outline:focus {
+    border-color: #7266ba;
+    background: #7266ba;
+    color: #fff; }
+
+/** TODO: DISABLED */
+.disabled {
+  pointer-events: none;
+  cursor: not-allowed; }
+
+/** TODO: DROPDOWN */
+.dropdown-menu {
+  margin-top: -15px; }
+
+.negro-dropdown .fa-caret-down:before {
+  color: #fff; }
+.negro-dropdown div.dropdown-menu {
+  padding: 0; }
+.negro-dropdown .divider {
+  background: #374552;
+  margin: 0; }
+.negro-dropdown div.dropdown-menu a.dropdown-item {
+  text-align: left;
+  transition: all .3s ease-in-out; }
+.negro-dropdown div.dropdown-menu a.dropdown-item:hover {
+  transition: all .3s ease-in-out;
+  color: #fff;
+  background: #4c5f70; }
+
+.blanco-dropdown .fa-caret-down:before {
+  color: #fff; }
+.blanco-dropdown div.dropdown-menu {
+  padding: 0; }
+.blanco-dropdown .divider {
+  background: #d3d5d5;
+  margin: 0; }
+.blanco-dropdown div.dropdown-menu a.dropdown-item {
+  text-align: left;
+  transition: all .3s ease-in-out; }
+.blanco-dropdown div.dropdown-menu a.dropdown-item:hover {
+  transition: all .3s ease-in-out;
+  color: #fff;
+  background: #edeeee; }
+
+.azul-dropdown .fa-caret-down:before {
+  color: #fff; }
+.azul-dropdown div.dropdown-menu {
+  padding: 0; }
+.azul-dropdown .divider {
+  background: #1797be;
+  margin: 0; }
+.azul-dropdown div.dropdown-menu a.dropdown-item {
+  text-align: left;
+  transition: all .3s ease-in-out; }
+.azul-dropdown div.dropdown-menu a.dropdown-item:hover {
+  transition: all .3s ease-in-out;
+  color: #fff;
+  background: #23b7e5; }
+
+.verde-dropdown .fa-caret-down:before {
+  color: #fff; }
+.verde-dropdown div.dropdown-menu {
+  padding: 0; }
+.verde-dropdown .divider {
+  background: #2e9e54;
+  margin: 0; }
+.verde-dropdown div.dropdown-menu a.dropdown-item {
+  text-align: left;
+  transition: all .3s ease-in-out; }
+.verde-dropdown div.dropdown-menu a.dropdown-item:hover {
+  transition: all .3s ease-in-out;
+  color: #fff;
+  background: #3ac569; }
+
+.amarillo-dropdown .fa-caret-down:before {
+  color: #fff; }
+.amarillo-dropdown div.dropdown-menu {
+  padding: 0; }
+.amarillo-dropdown .divider {
+  background: #ccbb00;
+  margin: 0; }
+.amarillo-dropdown div.dropdown-menu a.dropdown-item {
+  text-align: left;
+  transition: all .3s ease-in-out; }
+.amarillo-dropdown div.dropdown-menu a.dropdown-item:hover {
+  transition: all .3s ease-in-out;
+  color: #fff;
+  background: #FFEA00; }
+
+.naranja-dropdown .fa-caret-down:before {
+  color: #fff; }
+.naranja-dropdown div.dropdown-menu {
+  padding: 0; }
+.naranja-dropdown .divider {
+  background: #ff901a;
+  margin: 0; }
+.naranja-dropdown div.dropdown-menu a.dropdown-item {
+  text-align: left;
+  transition: all .3s ease-in-out; }
+.naranja-dropdown div.dropdown-menu a.dropdown-item:hover {
+  transition: all .3s ease-in-out;
+  color: #fff;
+  background: #ffa94d; }
+
+.rosa-dropdown .fa-caret-down:before {
+  color: #fff; }
+.rosa-dropdown div.dropdown-menu {
+  padding: 0; }
+.rosa-dropdown .divider {
+  background: #eb3775;
+  margin: 0; }
+.rosa-dropdown div.dropdown-menu a.dropdown-item {
+  text-align: left;
+  transition: all .3s ease-in-out; }
+.rosa-dropdown div.dropdown-menu a.dropdown-item:hover {
+  transition: all .3s ease-in-out;
+  color: #fff;
+  background: #f06595; }
+
+.rojo-dropdown .fa-caret-down:before {
+  color: #fff; }
+.rojo-dropdown div.dropdown-menu {
+  padding: 0; }
+.rojo-dropdown .divider {
+  background: #df0d35;
+  margin: 0; }
+.rojo-dropdown div.dropdown-menu a.dropdown-item {
+  text-align: left;
+  transition: all .3s ease-in-out; }
+.rojo-dropdown div.dropdown-menu a.dropdown-item:hover {
+  transition: all .3s ease-in-out;
+  color: #fff;
+  background: #F32C52; }
+
+.morado-dropdown .fa-caret-down:before {
+  color: #fff; }
+.morado-dropdown div.dropdown-menu {
+  padding: 0; }
+.morado-dropdown .divider {
+  background: #564aa3;
+  margin: 0; }
+.morado-dropdown div.dropdown-menu a.dropdown-item {
+  text-align: left;
+  transition: all .3s ease-in-out; }
+.morado-dropdown div.dropdown-menu a.dropdown-item:hover {
+  transition: all .3s ease-in-out;
+  color: #fff;
+  background: #7266ba; }
+
+/** TODO: LOADER */
+.submit-hide {
+  color: #fff;
+  transition: all .3s ease-in-out; }
+  .submit-hide .animation {
+    animation: disappear 1s forwards; }
+  .submit-hide .fa-refresh {
+    width: 40px;
+    animation: turn 1s infinite;
+    pointer-events: none; }
+
+.fa-rotate-right {
+  width: 40px;
+  animation: turn 1s infinite;
+  pointer-events: none; }
+
+.butch {
+  margin-bottom: 30px; }
+
+.iconn {
+  display: inline-block;
+  margin-bottom: 73px; }
+
+.woosh, .buttonLoader {
+  display: inline-block; }
+
+@keyframes disappear {
+  0% {
+      opacity: 1;
+      transform: scale(0); }
+  50% {
+      opacity: 0.5;
+      transform: scale(3); }
+  100% {
+      opacity: 0;
+      transform: scale(0); } }
+@keyframes turn {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=botones.css.map */

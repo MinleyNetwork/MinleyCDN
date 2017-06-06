@@ -1,0 +1,81 @@
+/******************************************************************************
+ *                                                                            *
+ *   Created by IntelliJ IDEA.                                                *
+ *   User: alejandrorioscalera                                                *
+ *   By clonalejandro                                                         *
+ *                                                                            *
+ ******************************************************************************/
+
+nav.navbar-minley ul.navbar-nav a {
+
+    left: 100%;
+    right: 100%;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    color: inherit; border-style: solid; border-width: 0 0 2px 0; border-color: transparent; }
+nav.navbar-minley ul.navbar-nav a:hover,
+nav.navbar-minley ul.navbar-nav a:visited,
+nav.navbar-minley ul.navbar-nav a:focus,
+nav.navbar-minley ul.navbar-nav a:active { background: transparent; }
+nav.navbar-minley ul.navbar-nav a:hover {
+    left: 100%;
+    right: 100%;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    border-color: #f14444;
+    color: inherit;}
+.sticky.navbar {
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.sticky .show-is-sticky,
+.sticky .show-not-sticky {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.sticky .show-not-sticky {
+    opacity: 1;
+    visibility: visible;
+}
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.sticky.is-sticky.navbar {
+    background-color: #343a40;
+    border-color: #212529;
+    color: #e7e7e7;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.sticky.is-sticky.navbar > .span.barra {
+    color: #e7e7e7;
+}
+.sticky.is-sticky .show-is-sticky {
+    opacity: 1;
+    visibility: visible;
+}
+.sticky.is-sticky .show-not-sticky {
+    opacity: 0;
+    visibility: hidden;
+}
+
